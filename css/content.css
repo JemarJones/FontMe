@@ -1,0 +1,32 @@
+#fmOverlay{
+	min-width: 200px;
+	margin-top: 20px;
+	padding: 0;
+	position: fixed;
+	z-index: 2147483647;
+	float: right;
+	right: 0;
+	margin-right: 20px;
+	text-align: center;
+	background-color: white;
+	border: 2px black solid;
+	border-radius: 5px;
+	font-size: 24px;
+	display: none;
+}
+
+body > div#fmOverlay > h1#fmTitle{
+	margin-top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,0,0,0.5);
+	color: black;
+}
+
+body > div#fmOverlay > h2#fmFont{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	color: black;
+}
