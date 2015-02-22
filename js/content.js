@@ -20,7 +20,9 @@ $(document).ready( function(){
 				var possibleFonts = fontFam.split(",");
 				for (var font in possibleFonts){
 					var currFont = possibleFonts[font];
-					if (checkfont(currFont)){
+					//DO NOT REMOVE SECOND CONDITION
+					//For some reason we need the 2nd condition if theres only 1 possible font
+					if (checkfont(currFont) || (possibleFonts.length == 1)){
 						currFont = currFont.replace(/["']/g, "").toLowerCase().capitalize();//Making quotes and capitilization uniform
 						//Sending a response to the background script and displaying an overlay with the font
 						sendResponse({usedFont: currFont});
