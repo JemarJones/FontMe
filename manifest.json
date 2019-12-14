@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "FontMe",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
   "description": "Discover what font was used on any webpage.",
   "icons": {"16": "images/fmIcon16.png",
@@ -9,10 +9,10 @@
           "128": "images/fmIcon128.png" },
 
   "browser_action": {
-          "default_icon": {                 
-            "128": "images/fmIcon128.png"         
+          "default_icon": {
+            "128": "images/fmIcon128.png"
           },
-          "default_title": "FontMe", 
+          "default_title": "FontMe",
           "default_popup": "html/popup.html"
         },
 
@@ -27,8 +27,7 @@
     },
   "homepage_url": "http:JKJones.me",
   "offline_enabled": true,
-  "permissions": ["tabs",
-                  "storage",
+  "permissions": ["storage",
                   "activeTab",
                   "contextMenus"],
   "short_name": "FM"

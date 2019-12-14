@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	console.log(chrome)
 	// Adding FontMe rightclick item
 	chrome.contextMenus.create({title: "FontMe", contexts: ["selection"], onclick: function(result){
 		//Sending a request to the content script of the current tab asking for the font that was used
