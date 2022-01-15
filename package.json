@@ -1,0 +1,18 @@
+{
+  "name": "fontme",
+  "version": "1.0.4",
+  "description": "FontMe makes it incredibly easy to discover the font used on any webpage. Just right click, 'FontMe', and FontMe will let you know what font is being used for that text. No more time wasted digging through a webpages CSS just to find out what that cool font is.",
+  "scripts": {
+    "package": "rm -f package.zip && zip -r package.zip . -x '*.git*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JemarJones/FontMe.git"
+  },
+  "author": "Jemar Jones",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/JemarJones/FontMe/issues"
+  },
+  "homepage": "https://github.com/JemarJones/FontMe#readme"
+}
